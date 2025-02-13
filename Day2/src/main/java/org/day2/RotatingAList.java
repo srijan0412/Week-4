@@ -2,6 +2,7 @@ package org.day2;
 
 import java.util.Arrays;
 import java.util.ArrayList;
+
 public class RotatingAList {
     // Method to rotate elements in the array k times
     public static void rotateArray(ArrayList<Integer> array, int k) {

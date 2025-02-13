@@ -1,4 +1,4 @@
-package org.day2;
+package org.day2.listIntefrace;
 
 import java.util.ArrayList;
 import java.util.Arrays;

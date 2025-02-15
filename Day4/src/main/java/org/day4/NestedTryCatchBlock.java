@@ -12,6 +12,7 @@ public class NestedTryCatchBlock {
             // Sample array
             int array[] = {1, 2, 3, 4, 5};
 
+            // Taking divisor from the user
             System.out.print("Enter Divisor: ");
             int divisor = sc.nextInt();
 

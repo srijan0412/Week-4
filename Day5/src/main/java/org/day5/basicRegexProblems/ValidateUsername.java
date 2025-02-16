@@ -17,7 +17,5 @@ public class ValidateUsername {
                 System.out.println(input + " - In-valid");
             }
         }
-
-
     }
 }

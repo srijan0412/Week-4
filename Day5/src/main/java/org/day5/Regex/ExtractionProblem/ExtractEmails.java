@@ -1,4 +1,4 @@
-package org.day5.basicRegexProblems;
+package org.day5.Regex.ExtractionProblem;
 
 import java.util.List;
 import java.util.ArrayList;

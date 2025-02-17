@@ -1,4 +1,4 @@
-package org.day5.basicRegexProblems;
+package org.day5.Regex.ReplacementProblem;
 
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;

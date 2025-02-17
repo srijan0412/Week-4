@@ -1,11 +1,11 @@
-package org.day5.basicRegexProblems;
+package org.day5.Regex.ExtractionProblem;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class ExtractLinks {
+public class ExtractCapitals {
     // Method to extract all the valid data
     public static List<String> extractData(String regex, String testString) {
         List<String> result = new ArrayList<>();
@@ -20,10 +20,10 @@ public class ExtractLinks {
     }
     public static void main(String[] args) {
         // Defining the regix to extract the data
-        String regex = "https?://[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}[^\\s]*";
+        String regex = "[A-Z][a-zA-Z]+";
 
         // Defining the test String
-        String testString = "Visit https://www.google.com and http://example.org for more info.";
+        String testString = "The Eiffel Tower is in Paris and the Statue of Liberty is in New York.";
 
         List<String> result = extractData(regex, testString);
         for (String element : result) {

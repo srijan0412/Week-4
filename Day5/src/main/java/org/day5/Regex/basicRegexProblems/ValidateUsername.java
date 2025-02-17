@@ -1,4 +1,4 @@
-package org.day5.basicRegexProblems;
+package org.day5.Regex.basicRegexProblems;
 
 import java.util.regex.*;
 
